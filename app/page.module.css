@@ -1,8 +1,29 @@
 .container {
+	display: flex;
+	gap: 20px;
 	width: 1440px;
-	margin: auto;
+	height: 100%;
+}
+
+.navigation_button {
+	box-sizing: border-box;
+	height: 100px;
+	width: 100px;
+	align-self: center;
+	background-color: #222;
+	border-radius: 25%;
+	color: #fff;
+	border: none;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.card_container {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: flex-start;
 	gap: 20px;
 }

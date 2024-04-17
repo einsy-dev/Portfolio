@@ -16,9 +16,25 @@ export default function MainPage() {
 
   return (
     <main className={style.container}>
-      {state.map((item, index) => (
-        <Card key={index} data={item} />
-      ))}
+      <button
+        className={style.navigation_button}
+        onClick={() => setPage(page - 1)}
+        disabled={page <= 1}
+      >
+        {"<"}
+      </button>
+      <div className={style.card_container}>
+        {state.map((item, index) => (
+          <Card key={index} data={item} />
+        ))}
+      </div>
+      <button
+        className={style.navigation_button}
+        onClick={() => setPage(page + 1)}
+        disabled={data.length <= page * 6}
+      >
+        {">"}
+      </button>
     </main>
   );
 }
