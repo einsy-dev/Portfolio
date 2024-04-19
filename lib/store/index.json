@@ -1,0 +1,89 @@
+[
+	{
+		"name": "Noemi blog",
+		"images": [
+			"blog.png"
+		],
+		"description": "Базовый проект в котором не используются сторонние библиотеки. Верстка выполнена на основе HTML5, CSS3 и JavaScript. Статическая страница на данный момент не имеет функциональности.",
+		"link": "https://blog-gamma-two-95.vercel.app/",
+		"tags": [
+			"html",
+			"css",
+			"javascript",
+			"git"
+		]
+	},
+	{
+		"name": "Static MPA",
+		"images": [
+			"static-mpa.png"
+		],
+		"description": "Статический сайт использует Webpack для сборки, Scss для стилизации и TypeScript для типизации. Страница на данный момент не имеет функциональности и находится в разработке.",
+		"link": "https://static-mpa.vercel.app/",
+		"tags": [
+			"html",
+			"scss",
+			"typescript",
+			"webpack",
+			"git"
+		]
+	},
+	{
+		"name": "Noemi blog",
+		"images": [
+			"blog.png"
+		],
+		"description": "Базовый проект в котором не используются сторонние библиотеки. Верстка выполнена на основе HTML5, CSS3 и JavaScript. Статическая страница на данный момент не имеет функциональности.",
+		"link": "https://blog-gamma-two-95.vercel.app/",
+		"tags": [
+			"html",
+			"css",
+			"javascript",
+			"git"
+		]
+	},
+	{
+		"name": "Static MPA",
+		"images": [
+			"static-mpa.png"
+		],
+		"description": "Статический сайт использует Webpack для сборки, Scss для стилизации и TypeScript для типизации. Страница на данный момент не имеет функциональности и находится в разработке.",
+		"link": "https://static-mpa.vercel.app/",
+		"tags": [
+			"html",
+			"scss",
+			"typescript",
+			"webpack",
+			"git"
+		]
+	},
+	{
+		"name": "Noemi blog",
+		"images": [
+			"blog.png"
+		],
+		"description": "Базовый проект в котором не используются сторонние библиотеки. Верстка выполнена на основе HTML5, CSS3 и JavaScript. Статическая страница на данный момент не имеет функциональности.",
+		"link": "https://blog-gamma-two-95.vercel.app/",
+		"tags": [
+			"html",
+			"css",
+			"javascript",
+			"git"
+		]
+	},
+	{
+		"name": "Static MPA",
+		"images": [
+			"static-mpa.png"
+		],
+		"description": "Статический сайт использует Webpack для сборки, Scss для стилизации и TypeScript для типизации. Страница на данный момент не имеет функциональности и находится в разработке.",
+		"link": "https://static-mpa.vercel.app/",
+		"tags": [
+			"html",
+			"scss",
+			"typescript",
+			"webpack",
+			"git"
+		]
+	}
+]

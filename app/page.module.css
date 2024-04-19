@@ -1,8 +1,9 @@
 .container {
+	padding: 50px;
 	display: flex;
-	gap: 20px;
-	width: 1440px;
-	height: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color: #333;
 }
 
 .navigation_button {
@@ -20,10 +21,8 @@
 }
 
 .card_container {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 20px;
 }
